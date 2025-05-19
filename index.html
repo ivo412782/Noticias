@@ -3,62 +3,78 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Noticias Hoy</title>
+    <title>Váyase la alegría Noticias</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1 class="logo">Noticias Hoy</h1>
+        <div class="container header-container">
+            <a href="index.html" class="logo-link">
+                <img src="NOTIMX.png" alt="NOTIMX" class="logo-img" />
+                <h1 class="logo-text">Váyase la alegría Noticias</h1>
+            </a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Mundo</a></li>
-                    <li><a href="#">Economía</a></li>
-                    <li><a href="#">Deportes</a></li>
-                    <li><a href="#">Tecnología</a></li>
+                    <li><a href="index.html" aria-current="page">Inicio</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main class="container">
-        <section class="featured-news">
+        <!-- Noticia Principal a pantalla completa -->
+        <section class="main-news">
+            <a href="noticioa1.html" class="main-news-link" aria-label="Leer noticia principal: El Festival de las Flores en Polanco">
+                <div class="main-news-overlay">
+                    <h1>El Festival de las Flores en Polanco; aire fresco para la CDMX.</h1>
+                    <p>Polanco celebra la sexta edición del Festival de las Flores, he aquí todo lo que debes saber.</p>
+                </div>
+            </a>
+        </section>
+
+        <!-- Publicidad principal -->
+       
+        <!-- Noticias secundarias -->
+        <section class="news-list" aria-label="Noticias secundarias">
             <article>
-                <img src="https://via.placeholder.com/800x400" alt="Noticia destacada" />
-                <h2>Noticia Destacada del Día</h2>
-                <p>Resumen breve de la noticia destacada para captar la atención del lector.</p>
-                <a href="#" class="read-more">Leer más</a>
+                <a href="#" class="news-card">
+                    <img src="Flores223.jpeg" alt="Miniatura Noticia 2" class="news-thumb" />
+                    <div class="news-content">
+                        <h3>Adornaron restaurante Sanborns ubicado en Avenida Presidente Masaryk</h3>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="#" class="news-card">
+                    <img src="ocosingo.jpg" alt="Miniatura Noticia 3" class="news-thumb" />
+                    <div class="news-content">
+                        <h3>La UNESCO reconoce a Ocosingo, Chiapas, como la capital mundial del tamal chiapaneco.</h3>
+                       
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="#" class="news-card">
+                    <img src="under my conditions.jpg" alt="Miniatura Noticia 4" class="news-thumb" />
+                    <div class="news-content">
+                        <h3>Actriz de la serie Under My Conditions anuncia tercera temporada en Netflix.</h3>
+                        
+                    </div>
+                </a>
             </article>
         </section>
 
-        <section class="news-list">
-            <article>
-                <h3>Título de Noticia 1</h3>
-                <p>Resumen corto de la noticia 1.</p>
-                <a href="#">Leer más</a>
-            </article>
-            <article>
-                <h3>Título de Noticia 2</h3>
-                <p>Resumen corto de la noticia 2.</p>
-                <a href="#">Leer más</a>
-            </article>
-            <article>
-                <h3>Título de Noticia 3</h3>
-                <p>Resumen corto de la noticia 3.</p>
-                <a href="#">Leer más</a>
-            </article>
-            <article>
-                <h3>Título de Noticia 4</h3>
-                <p>Resumen corto de la noticia 4.</p>
-                <a href="#">Leer más</a>
-            </article>
+
+        <section class="ad-banner">
+            <img src="nsqk tecate(1).jpg" alt="Publicidad Festival" class="ad-img" />
+            <figcaption><h2> Nsqk se le olvida la letra de sus canciones, pide ayuda a sus fans y tampoco se la saben</h2></figcaption>
         </section>
+
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Noticias Hoy. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Váyase la alegría Noticias. Todos los derechos reservados.</p>
         </div>
     </footer>
 </body>
